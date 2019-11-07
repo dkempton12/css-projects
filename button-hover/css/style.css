@@ -18,3 +18,15 @@ a {
   background: #20b2aa;
   background-size: cover;
 }
+
+.button {
+  padding: 10px 25px;
+  border: 1px solid #F7F7F7;
+  border-radius: 3px;
+  background: #191970;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  transition: all .5s ease;
+  cursor: pointer;
+}
