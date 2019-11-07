@@ -27,11 +27,11 @@ a {
   font-family: Arial, sans-serif;
   font-size: 18px;
   letter-spacing: 0.5px;
-  transition: all .5s ease;
+  transition: all 0.4s ease;
   cursor: pointer;
 }
 
-.button-active {
-  box-shadow: 0 20px 5px -10px rgba(#000, 0.4);
+.button:hover {
+  background: #007FFF;
   transform: translateY(5px);
 }
