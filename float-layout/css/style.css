@@ -15,3 +15,16 @@ body {
   text-align: center;
   background: #1E90FF;
 }
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  background: #FF7F50;
+  color: #FFF;
+}
+
+header p, footer p {
+  display: flex;
+  align-items: center;
+}
