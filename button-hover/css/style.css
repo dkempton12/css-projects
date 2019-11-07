@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  background: #20b2aa;
+  background-size: cover;
+}
