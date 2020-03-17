@@ -48,3 +48,13 @@ p {
 	border-bottom-right-radius: 15px;
 	background: var(--sub-headline);
 }
+
+@media screen and (max-width: 768px) {
+	.headline.main-headline,
+	.headline.sub-headline {
+		border-radius: 15px;
+	}
+	.headline.main-headline {
+		margin-bottom: 15px;
+	}
+}
