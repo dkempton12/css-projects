@@ -11,5 +11,15 @@ body {
 }
 
 .headline {
-	padding: 0 15px;
+	padding: 10px 15px;
+}
+
+.headline.main-headline {
+	background: #008bbf;
+	color: #fff;
+}
+
+.headline.sub-headline {
+	background: #21a562;
+	color: #fff;
 }
