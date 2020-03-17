@@ -13,7 +13,12 @@ body {
 h2,
 h3 {
 	margin-top: 0;
+	margin-bottom: 0;
 	padding-top: 0;
+}
+
+h3 {
+	margin-bottom: 22px;
 }
 
 p {
@@ -33,9 +38,13 @@ p {
 }
 
 .headline.main-headline {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
 	background: var(--main-headline);
 }
 
 .headline.sub-headline {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 	background: var(--sub-headline);
 }
