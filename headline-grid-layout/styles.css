@@ -1,0 +1,15 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	background: #fff;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+	justify-content: center;
+}
+
+.headline {
+	padding: 0 15px;
+}
