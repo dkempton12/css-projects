@@ -1,7 +1,23 @@
+html {
+	--white: #fff;
+	--main-headline: #008bbf;
+	--sub-headline: #21a562;
+}
+
 body {
 	font-family: sans-serif;
 	font-size: 16px;
 	background: #fff;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+p {
+	margin-bottom: 0;
 }
 
 .container {
@@ -11,15 +27,15 @@ body {
 }
 
 .headline {
-	padding: 10px 15px;
+	padding: 20px;
+	font-size: inherit;
+	color: var(--white);
 }
 
 .headline.main-headline {
-	background: #008bbf;
-	color: #fff;
+	background: var(--main-headline);
 }
 
 .headline.sub-headline {
-	background: #21a562;
-	color: #fff;
+	background: var(--sub-headline);
 }
