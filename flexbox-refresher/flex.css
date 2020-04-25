@@ -11,6 +11,9 @@ body {
 .item {
 	box-sizing: border-box;
 	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 2rem;
 	font-size: 1.5rem;
 	font-weight: inherit;
