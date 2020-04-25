@@ -1,7 +1,52 @@
+body {
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
 .flex-container {
 	display: flex;
+	box-sizing: border-box;
 }
 
 .item {
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: inherit;
+	color: #fff;
+}
+
+.item.one {
 	background: blue;
+}
+
+.item.two {
+	background: navy;
+}
+
+.item.three {
+	background: steelblue;
+}
+
+.item.four {
+	background: dodgerblue;
+}
+
+.item.five {
+	background: indigo;
+}
+
+.item.six {
+	background: slateblue;
+}
+
+.item.seven {
+	background: darkblue;
+}
+
+.item.eight {
+	background: cornflowerblue;
+}
+
+.item.nine {
+	background: mediumblue;
 }
