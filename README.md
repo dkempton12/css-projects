@@ -1,3 +1,3 @@
 # css-projects
 
-A collection of random CSS elements and layouts I'm creating
+A collection of random CSS components and layouts I'm creating
