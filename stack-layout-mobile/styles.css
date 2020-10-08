@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.grid {
+  min-height: 100vh;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+}
+
+.header,
+.main,
+.footer {
+  display: grid;
+  place-items: center;
+}
+
+.header,
+.footer {
+  padding: 2rem;
+}
+
+.header {
+  background: slateblue;
+}
+
+.main {
+  background: dodgerblue;
+}
+
+.footer {
+  background: navy;
+}
